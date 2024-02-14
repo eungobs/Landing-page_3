@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South African Car Weather App Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://th.bing.com/th/id/R.c368c151faf535cb490de001c2c1aaaf?rik=fpJVMXzlrJQ3YA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f12%2fCloudy-Sky-Wallpaper-Widescreen.jpg&ehk=gIXk%2f%2f1Dq3%2f3SGZQXxvab6ULuknatJsk4IYUq9mHfPQ%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #333; 
+            color: white;
+            border-bottom: 5px solid #4CAF50; /* A decorative border */
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.7); 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333; 
+            color: white;
+            padding: 20px;
+            border-top: 5px solid #4CAF50; /* Decorative border */
+        }
+
+        /* Light background colors */
+        #features {
+            background-color: rgba(249, 249, 249, 0.7);
+        }
+
+        #about {
+            background-color: rgba(229, 229, 229, 0.7); 
+        }
+
+        /* Feature boxes */
+        .feature {
+            background-color: #fff; 
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /*Subtle shadow */
+        }
+
+        /* Decorative elements */
+        .decorative-border {
+            border: 5px solid #4CAF50;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .artistic-heading {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: #4CAF50;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            margin-right: 10px;
+            color: white;
+            font-size: 24px;
+        }
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-icons li:last-child {
+            margin-right: 0;
+        }
+
+        .social-icons li a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 50%;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-icons li a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header class="decorative-border">
+        <h1>Welcome to the South African Car Weather App!</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Key Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="https://friendly-donut-9204c6.netlify.app" target="_blank">View Deployed App</a>
+    </header>
+    
+    <section id="features">
+        <h2 class="artistic-heading">Key Features</h2>
+        <div class="feature">
+            <span class="icon">☀️</span>
+            <h3>Real-Time Weather Updates</h3>
+            <p>Stay informed with up-to-the-minute weather updates for your location.</p>
+        </div>
+        <div class="feature">
+            <span class="icon">⚠️</span>
+            <h3>Customised Alerts</h3>
+            <p>Set personalised alerts for weather conditions relevant to your car and driving habits.</p>
+        </div>
+        <div class="feature">
+            <span class="icon">🌧️</span>
+            <h3>Interactive Radar</h3>
+            <p>Visualise weather patterns and track storms with our interactive radar feature.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2 class="artistic-heading">About</h2>
+        <p>My project, the South African Car Weather App, was born out of a deep-seated need for a reliable weather application tailored to the specific challenges faced by car owners in South Africa. As a sole developer, I recognized the critical importance of staying informed about weather conditions, particularly when driving alone.</p>
+        <p>One of the key insights driving the development of this app was the recognition of how seamlessly integrating a calendar feature could enhance its utility. By incorporating a comprehensive calendar function, users can not only access real-time weather updates but also plan their journeys effectively, aligning them with their scheduled appointments and travel plans. This holistic approach empowers users to make
